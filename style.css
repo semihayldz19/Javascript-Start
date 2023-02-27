@@ -1,0 +1,72 @@
+*{
+margin:0px;
+padding:0px;
+font-family: "Bodoni Moda",serif;
+
+}
+
+h1{
+
+    margin-bottom: 20px;
+    font-size: 45px;
+    color:rgb(48, 60, 229)
+}
+
+
+
+
+.container{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.buton{
+
+width: 50% ;
+padding: 20px ;
+text-align: left;
+display: flex;
+justify-content: space-between;
+font-size: 22px;
+background-color: rgb(207, 225, 147);
+border-radius: 10px;
+
+background: #30523a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+}
+
+.kutu{
+ width: calc(50%-40px);
+ padding: 0px 20px;
+ max-height: 0px;
+ justify-content: center;
+transition: all 0.5s;
+
+}
+
+.kutu p{
+    padding: 20px;
+}
+
+
+
+
+button:hover,button.aktif{
+
+background-color:rgb(157, 161, 36);
+color:rgba(11, 11, 11, 0.579);
+font-size: 30px;
+cursor: pointer;
+
+}
