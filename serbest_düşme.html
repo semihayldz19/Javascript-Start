@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>serbest düşme hareketi</h1>
+
+    <label>serbest düşme hareketi yapacak cismin yerden yüksekliğini girin</label>
+    <input type="number" id="h" />
+
+    <button id="hesapla" onclick="hesap()">HESAPLA</button>
+
+    <div id="t"></div>
+    <div id="v"></div>
+
+    <script>
+      function hesap() {
+        var yükseklik = document.getElementById("h").value;
+       
+
+        yerden_yükseklik = Number(yükseklik);
+        // F=m*a     F=m*g        mg=ma => g=a buradan v=a*t => v=10*t         yükseklik formulü    h=5*t^2
+        var zaman=Math.sqrt(yerden_yükseklik/5);
+        var çarpma_hizi=10*zaman;
+        
+        document.getElementById("t").innerHTML = "yere kaç saniyede düşeceği:" + zaman;
+        document.getElementById("v").innerHTML = "yere çarpma hızı:" + çarpma_hizi;
+      }
+    </script>
+  </body>
+</html>
