@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+#num{
+
+    background-color: yellow;
+    height: 50px;
+    width: 150;
+    color:aqua;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border: 3px solid orange;
+    border-radius: 15px;
+    text-transform: capitalize;
+    cursor:pointer;
+    position:absolute;
+    
+    }
+    
