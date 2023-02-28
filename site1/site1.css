@@ -1,0 +1,42 @@
+.container{
+
+
+
+}
+h1{
+    color: rgb(95, 203, 111);
+}
+
+.menü{
+
+background-color: rgb(214, 234, 223);
+
+}
+
+#hakkımızda{
+background-color: rgb(105, 180, 101);
+cursor: pointer;
+}
+
+
+#iletişim{
+background-color: rgb(105, 180, 101);
+cursor: pointer;
+}
+
+
+#ürünler{
+background-color: rgb(105, 180, 101);
+cursor: pointer;
+}
+
+#ara{
+color:rgb(28, 164, 21);
+}
+
+#aralan{
+
+height: 25px;
+width: 40%;
+
+}
