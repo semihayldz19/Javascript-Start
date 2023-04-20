@@ -1,60 +1,58 @@
-.panel{
-    position:absolute;
-    top:50%;
-    left:50%;
-   transform: translate(-50%,-50%);
-   text-align: center; 
-
-
+body {
+  background-image: url("https://lavinya.net/wp-content/uploads/2022/11/df632a-geceleyin-karla-kapli-ormanda-gokyuzu-night-stars-in-winter-831x554.jpeg.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-.buton{
-    background: none;
-    border:2px solid rgb(118, 7, 7);
-     border-radius: 3px;
- font-family: Arial, Helvetica, sans-serif;
- text-transform: uppercase;
-padding: 12px 20px;
-min-width: 160px;
-cursor:pointer;
-position:relative;
-transition: color 0.4s linear;
-
+.panel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-.buton:hover{
-        color:#FFF;
-
-    }
-.buton::before{
-    content:"";
-    position:absolute;
-    left:0 ;
-    top:0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(9, 94, 71);
-    z-index: -1; /*arkaplanı renk kaplayınca yazı kaybolmasın diye before u metinlerin arkasına alır */
-     transition: transform 0.5s;
-     transform-origin: 0 0;
-     transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
-  
-
+.buton {
+  background: none;
+  border: 2px solid rgb(166, 74, 74);
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  min-width: 160px;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.4s linear;
 }
 
-.btn1::before{
-    transform: scaleX(0);
+.buton:hover {
+  color: #e04c8c;
 }
-.btn1:hover::before{
-    transform: scaleX(1);
-    
+.buton::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(187, 195, 234);
+  z-index: -1; /*arkaplanı renk kaplayınca yazı kaybolmasın diye before u metinlerin arkasına alır */
+  transition: transform 0.5s;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
-
-.btn2::before{
-    transform: scaleY(0);
+.btn1::before {
+  transform: scaleX(0);
 }
-.btn2:hover::before{
-    transform: scaleY(1);
-    
+.btn1:hover::before {
+  transform: scaleX(1);
+}
+
+.btn2::before {
+  transform: scaleY(0);
+}
+.btn2:hover::before {
+  transform: scaleY(1);
 }
