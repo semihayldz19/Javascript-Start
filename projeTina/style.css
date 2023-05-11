@@ -9,3 +9,28 @@ h1 {
 h3 {
   text-transform: uppercase;
 }
+
+.bord {
+  border-color: black;
+}
+.navbar2 {
+  font-size: 20px;
+}
+.navilk {
+  width: 80px;
+  border-radius: 5px;
+}
+
+/*burası **/
+
+img {
+  width: 210px;
+  height: 210px;
+}
+
+.say {
+  font-size: 20px;
+}
+h2 {
+  text-transform: uppercase;
+}
