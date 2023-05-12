@@ -1,0 +1,26 @@
+header {
+    font-size: small;
+}
+
+
+.h {
+    height: 35px;
+}
+
+.btn-Teklif {
+    background-color: rgb(24, 24, 211);
+    border-radius: 3px;
+    width: 55%;
+    height: 30px;
+    color:white;
+    border:0;
+    margin: auto;
+   
+}
+
+
+@media(max-width:720px)
+{
+
+    
+}
