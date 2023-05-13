@@ -1,16 +1,13 @@
 header {
     font-size: small;
-   
 }
-
 
 .h {
     height: 35px;
 }
 
 .btn-Teklif {
-    
-    border-radius: 3px;
+     border-radius: 3px;
     width: 55%;
     height: 30px;
     color:white;
@@ -21,7 +18,6 @@ header {
     border-color: #007bff;
    
 }
-
 nav {
     height: 115px;
     width: 100%;
@@ -32,4 +28,40 @@ a {
     color: black;
     font-size: 13px;
     font-weight: 600;
+}
+.imgg{
+    height: 350%;
+    weight: 250%;
+}
+.menu{
+    
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/*  <img src="https://mdweb108.websitedemolari.com/images/logo/3647047472494-982-220xlogo.png" alt="" width="160%" >  */
+
+.imgBig {
+    width:400px;
+    height: 400px;
+    
+}
+.hizmetBaslik {
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+
+.parag {
+    color: #404040;
+    letter-spacing: 0.07em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+
+}
+
+.hiza{
+    margin:auto;
 }
