@@ -1,5 +1,6 @@
 header {
     font-size: small;
+   
 }
 
 
@@ -8,19 +9,27 @@ header {
 }
 
 .btn-Teklif {
-    background-color: rgb(24, 24, 211);
+    
     border-radius: 3px;
     width: 55%;
     height: 30px;
     color:white;
-    border:0;
     margin: auto;
+    font-size: 13px;
+    font-family: Open Sans, Arial;
+    background-color: #007bff;
+    border-color: #007bff;
    
 }
 
-
-@media(max-width:720px)
-{
-
-    
+nav {
+    height: 115px;
+    width: 100%;
+    background-color: #539dec;
+}
+a {
+    font-family:
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
 }
