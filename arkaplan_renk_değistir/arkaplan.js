@@ -1,13 +1,9 @@
-var renk=document.getElementById("num");
+let renk = document.querySelector(".btn");
 
-renk.addEventListener("click",()=>{
+renk.addEventListener("click", () => {
+  document.body.style.background = rastgele();
+});
 
-document.body.style.background= rastgele();
-
-})
-
-function rastgele()
-{
-
-    return `hsl( ${Math.floor(Math.random() * 360)}, 100%, 50%)`;
+function rastgele() {
+  return `hsl( ${Math.floor(Math.random() * 360)}, 100%, 50%)`;
 }
