@@ -1,14 +1,6 @@
 let bas = document.getElementById("bas");
 
-var i = 0;
-while (i <= 5) {
-  bas.addEventListener("click", function () {
-    bas.classList.add("kaydır_sağ");
-  });
-
-  bas.addEventListener("click", function () {
-    bas.classList.add("kaydır_sol");
-  });
-
-  i++;
-}
+bas.addEventListener("click", function () {
+  bas.classList.toggle("kaydır_sağ");
+  bas.classList.toggle("kaydır_sol");
+});
